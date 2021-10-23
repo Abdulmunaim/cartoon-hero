@@ -6,10 +6,11 @@ html, body{
 header{
     background-color: #00004C;
     padding: 40px;
+    text-align: center;
 }
 
 h1{
-    font-size: 90px;
+    font-size: 80px;
     color: white;
 }
 
@@ -21,18 +22,25 @@ header img{
 }
 
 .content{
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 75%;
+    margin: 0  auto;
+    /* background-color: coral; */
     padding: 0 20px;
 }
 
-img .big-image{
+.content h2{
+    color: #3838ac
+}
+img.big-image{
+    margin-top: 2%;
+    margin-bottom: 0%;
     max-width: 100%;
 }
 
-p .caption {
-    font-size: 16px;
-    color: lightgray;
+p.caption {
+    margin: 0%;
+    font-size: 15px;
+    color: gray;
     font-style: italic;
 }
 
@@ -50,8 +58,8 @@ a{
 
 footer{
     margin: 20px;
-    padding: 40px 20px;
-    border-color: #e6e6e6e6;
+    padding: 0;
+    background-color: #dceff1;
 }
 
 footer ul{
@@ -61,6 +69,10 @@ footer ul{
 footer ul li{
     display: inline-block;
     margin: 0 5px;
+}
+
+.copywrite{
+    color: #0400eb;
 }
 
 /* <head>
